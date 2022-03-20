@@ -39,7 +39,7 @@ kumpulan data kode pos negara Indonesia.
   </tr>
   <tr>
     <td>2</td>
-    <td>Get All Data Nasinal (Pagination)</td>
+    <td>Get All Data Nasional (Pagination)</td>
     <td>/api/v1/get-nasional?start={}&limit={}</td>
     <td>Ada</td>
     <td>GET</td>
@@ -55,14 +55,6 @@ kumpulan data kode pos negara Indonesia.
   
   <tr>
     <td>4</td>
-    <td>Ekonomi</td>
-    <td>/ekonomi</td>
-    <td>Tidak ada</td>
-    <td>GET</td>
-  </tr>
-  
-  <tr>
-    <td>5</td>
     <td>Get Data Provinsi</td>
     <td>/api/v1/get-data-provinsi/{}</td>
     <td>Ada</td>
@@ -70,7 +62,7 @@ kumpulan data kode pos negara Indonesia.
   </tr>
   
   <tr>
-    <td>6</td>
+    <td>5</td>
     <td>Setup Data Kode Pos Provinsi</td>
     <td>/api/v1/reset-data-provinsi</td>
     <td>Tidak ada</td>
@@ -78,7 +70,7 @@ kumpulan data kode pos negara Indonesia.
   </tr>
   
   <tr>
-    <td>7</td>
+    <td>6</td>
     <td>Setup Data Kode Pos Nasional</td>
     <td>/api/v1/reset-data-nasional</td>
     <td>Tidak ada</td>
