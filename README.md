@@ -90,5 +90,5 @@ kumpulan data kode pos negara Indonesia.
 
 ### Postman Collection
 
-[klik disini] (https://github.com/asepscareer/kodepost-api/blob/master/kodepos-api.json)
+[klik disini](https://github.com/asepscareer/kodepost-api/blob/master/kodepos-api.json)
 
