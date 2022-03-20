@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "15e224e7-1ca2-427f-a5b3-749414d246d0",
+		"name": "Kode Pos API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Data Nasional",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/v1/get-data-nasional",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"get-data-nasional"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data Nasional Pagination",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/get-nasional?start=1&limit=2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"get-nasional"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Daftar Provinsi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/daftar-daerah",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"daftar-daerah"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data Provinsi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/v1/get-data-provinsi/jawa-barat",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"get-data-provinsi",
+						"jawa-barat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reset Data Provinsi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/v1/reset-data-provinsi",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"reset-data-provinsi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reset Data Nasional",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/v1/reset-data-nasional",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"reset-data-nasional"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
