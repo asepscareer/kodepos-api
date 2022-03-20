@@ -1,0 +1,7 @@
+app/__pycache__/__init__.cpython-310.pyc
+app/__pycache__/app.cpython-310.pyc
+src/__pycache__/__init__.cpython-310.pyc
+src/__pycache__/base.cpython-310.pyc
+src/__pycache__/res.cpython-310.pyc
+src/__pycache__/utils.cpython-310.pyc
+myenv/*
