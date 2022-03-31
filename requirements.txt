@@ -17,4 +17,4 @@ requests==2.27.1
 six==1.16.0
 soupsieve==2.3.1
 urllib3==1.26.9
-Werkzeug==2.0.3
+Werkzeug==2.1.0
